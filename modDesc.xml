@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="94">
+    <author>apuehri</author>
+    <version>1.0.0.0</version>
+	
+    <title>
+		<en>Use Your Own License Plates</en>
+		<de>Nutze Eigene Kennzeichen</de>
+		<fr>Propres Plaques D'immatriculation</fr>		
+    </title>
+	
+	<description>
+		<en><![CDATA[use your own license plates
+
+This mod allows you to use your own license plates on every map!
+
+You can find detailed instructions on how to use your own license plates
+after starting the game for the first time with the mod loaded
+in the file -- useYourOwnLicensePlates_Help.txt -- in the "modSettings/FS25_useYourOwnLicensePlates" directory
+
+The following license plates are prepared:
+ - Austria (all 9 federal states, 2 license plate types)
+ - Germany (federal state neutral, 4 license plate types)
+
+When using the mod in an existing save game, you should reconfigure 
+the license plates of your existing vehicles.
+]]></en>
+
+		<de><![CDATA[Nutze deine eigenen Kennzeichen
+
+Dieser Mod ermöglicht es dir auf jeder Map deine eigenen Kennzeichen zu verwenden!
+
+Eine genaue Anleitung wie du deine eigenen Kennzeichen nutzen kannst,
+findest du nach erstmaligem Spielstart mit geladenem Mod
+in der Datei -- useYourOwnLicensePlates_Help.txt -- im "modSettings/FS25_useYourOwnLicensePlates" Verzeichnis
+
+Es sind folgende Kennzeichen vorbereitet:
+ - Österreich (alle 9 Bundesländer, 2 Kennzeichentypen)
+ - Deutschland (Bundeslandneutral , 4 Kennzeichentypen)
+
+Bei Verwendung des Mods in einem bereits bestehenden Savegame, solltest du die Kennzeichen 
+deiner bereits vorhandenen Fahrzeuge einmal neu konfigurieren.
+]]></de>
+
+      <fr><![CDATA[utilisez vos propres plaques d'immatriculation
+
+Ce mod vous permet d'utiliser vos propres plaques d'immatriculation sur chaque carte!
+
+Instructions détaillées sur la façon d'utiliser vos propres plaques d'immatriculation
+Vous le trouverez après avoir démarré le jeu pour la première fois avec le mod chargé
+dans le fichier -- useYourOwnLicensePlates_Help.txt -- dans le répertoire "modSettings/FS25_useYourOwnLicensePlates"
+
+Les plaques d'immatriculation suivantes sont préparées :
+ - Autriche (les 9 État fédéral, 2 types de plaques d'immatriculation)
+ - Allemagne (état neutre, 4 types de plaques d'immatriculation)
+
+Lorsque vous utilisez le mod dans une sauvegarde existante, 
+vous devez utiliser les identifiants de votre partie existante
+Reconfigurez les véhicules une fois.
+]]></fr>
+	</description>	
+	
+    <iconFilename>icon_useYourOwnLicensePlates.png</iconFilename>
+	<multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/useYourOwnLicensePlates.lua"/>
+    </extraSourceFiles>	
+
+</modDesc>

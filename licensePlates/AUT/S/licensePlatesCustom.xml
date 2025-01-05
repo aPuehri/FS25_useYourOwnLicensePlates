@@ -1,0 +1,115 @@
+<licensePlates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/mapLicensePlates.xsd">
+    <font name="LICENSE_PLATE_CZ" />
+
+    <licensePlate filename="licensePlatesCustom.i3d" node="0" type="ELONGATED" width="0.52" height="0.11">
+        <font size="0.07" scaleX="0.85" scaleY="1"/>
+
+        <variations>
+            <variation> <!-- 2 region, 3 numbers, 2 letter  -->
+                <value node="0|0" posX="-0.1712" numerical="false" alphabetical="true"/>
+                <value node="0|1" posX="-0.1172" numerical="false" alphabetical="true"/>				
+                <value node="0|2" posX="-0.0092" numerical="true"  alphabetical="false" nextSection="true"/>
+                <value node="0|3" posX="0.0448"  numerical="true"  alphabetical="false"/>
+                <value node="0|4" posX="0.0988"  numerical="true"  alphabetical="false"/>				
+                <value node="0|5" posX="0.1600"  numerical="false" alphabetical="true"/>
+                <value node="0|6" posX="0.2140"  numerical="false" alphabetical="true"/>
+
+                <value node="0|7" character="_" locked="true"/>
+                <value node="0|8" character="_" locked="true"/>
+
+                <value node="0|9"  position="ANY"/>
+                <value node="0|10" position="ANY"/>
+				<value node="0|11" position="ANY"/>
+                <value node="0|12" position="ANY"/>
+                <value node="0|13" posX="-0.06" position="ANY"/>
+
+                <material materialSlotName="licensePlateBlueBackground_mat">
+                    <colorScale value="0.0123 0.1413 0.5776"/>
+                </material>
+            </variation>
+			
+            <variation> <!-- 1 region, 4 numbers, 2 letter  -->
+                <value node="0|0" posX="-0.1712" numerical="false" alphabetical="true"/>
+                <value node="0|1" posX="-0.0632" numerical="true" alphabetical="false" nextSection="true"/>				
+                <value node="0|2" posX="-0.0092" numerical="true"  alphabetical="false" />
+                <value node="0|3" posX="0.0448"  numerical="true"  alphabetical="false"/>
+                <value node="0|4" posX="0.0988"  numerical="true"  alphabetical="false"/>				
+                <value node="0|5" posX="0.1600"  numerical="false" alphabetical="true"/>
+                <value node="0|6" posX="0.2140"  numerical="false" alphabetical="true"/>
+
+                <value node="0|7" character="_" locked="true"/>
+                <value node="0|8" character="_" locked="true"/>
+
+                <value node="0|9"  position="ANY"/>
+                <value node="0|10" position="ANY"/>
+				<value node="0|11" position="ANY"/>
+                <value node="0|12" position="ANY"/>
+                <value node="0|13" posX="-0.114" position="ANY"/>
+
+                <material materialSlotName="licensePlateBlueBackground_mat">
+                    <colorScale value="0.0123 0.1413 0.5776"/>
+                </material>
+            </variation>		
+        </variations>
+
+        <frame node="2" widthOffset="0.005" heightOffsetTop="0.005" heightOffsetBot="0.015"/>
+    </licensePlate>
+
+    <licensePlate filename="licensePlatesCustom.i3d" node="1" type="SQUARISH" width="0.255" height="0.130">
+        <font size="0.047" scaleX="0.95" scaleY="1"/>
+
+        <variations>
+            <variation> <!-- 2 region, 3 numbers, 2 letter  -->
+                <value node="0|0" posX="-0.047" posY="0.03" numerical="false" alphabetical="true"/>
+                <value node="0|1" posX="0.007"  posY="0.03" numerical="false" alphabetical="true"/>
+                <value node="0|2" posX="-0.101" numerical="true"  alphabetical="false" nextSection="true"/>
+                <value node="0|3" posX="-0.061" numerical="true"  alphabetical="false"/>
+                <value node="0|4" posX="-0.021" numerical="true"  alphabetical="false"/>
+                <value node="0|5" posX="0.0402" numerical="false" alphabetical="true"/>
+                <value node="0|6" posX="0.0802" numerical="false" alphabetical="true"/>
+                <value node="0|7" character="_" locked="true"/>
+				<value node="0|8" character="_" locked="true"/>
+
+                <value node="0|9"  position="ANY"/>
+                <value node="0|10" position="ANY"/>
+				<value node="0|11" position="ANY"/>
+                <value node="0|12" position="ANY"/>
+                <value node="0|13" posX="-0.003" position="ANY"/>				
+
+                <material materialSlotName="licensePlateBlueBackground_mat">
+                    <colorScale value="0.0123 0.1413 0.5776"/>
+                </material>
+            </variation>
+			
+            <variation> <!-- 1 region, 4 numbers, 2 letter  -->
+                <value node="0|0" posX="-0.011" posY="0.03"   numerical="false" alphabetical="true"/>
+                <value node="0|1" posX="-0.101" posY="-0.031" numerical="true" alphabetical="false" nextSection="true"/>
+                <value node="0|2" posX="-0.071" numerical="true"  alphabetical="false"/>
+                <value node="0|3" posX="-0.041" numerical="true"  alphabetical="false"/>
+                <value node="0|4" posX="-0.011" numerical="true"  alphabetical="false"/>
+                <value node="0|5" posX="0.0302" numerical="false" alphabetical="true"/>
+                <value node="0|6" posX="0.0702" numerical="false" alphabetical="true"/>
+                <value node="0|7" character="_" locked="true"/>
+				<value node="0|8" character="_" locked="true"/>
+
+                <value node="0|9"  position="ANY"/>
+                <value node="0|10" position="ANY"/>
+				<value node="0|11" position="ANY"/>
+                <value node="0|12" position="ANY"/>
+                <value node="0|13" posX="-0.035" position="ANY"/>			
+
+                <material materialSlotName="licensePlateBlueBackground_mat">
+                    <colorScale value="0.0123 0.1413 0.5776"/>
+                </material>
+            </variation>			
+        </variations>
+
+        <frame node="2" widthOffset="0.005" heightOffsetTop="0.005" heightOffsetBot="0.015"/>
+    </licensePlate>
+
+    <colorConfigurations materialName="licensePlateColored_mat" useDefaultColors="true">
+        <colorConfiguration name="$l10n_ui_colorBlack" color="0.0212 0.0212 0.0212"/>
+    </colorConfigurations>
+
+    <placement defaultType="both"/>
+</licensePlates>
